@@ -1,0 +1,28 @@
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 80px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 120px;
+    
+    img {
+        height: 50px;
+    }
+
+    a {
+        color: white; 
+        text-decoration: none;
+        margin-left: 32px;
+        font-weight: 800;
+
+        &:hover {
+            color: rgba(255,255,255,0.8);
+
+        }
+    }
+}
